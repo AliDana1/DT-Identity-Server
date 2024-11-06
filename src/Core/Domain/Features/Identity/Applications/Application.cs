@@ -88,4 +88,5 @@ public class Application :
 	public virtual IList<UserValidIP> UserValidIPs { get; } = [];
 	public virtual IList<ApplicationRole> ApplicationRoles { get; } = [];
 	public virtual IList<ApplicationValidIP> ApplicationValidIPs { get; } = [];
+    public virtual IList<ApplicationController> ApplicationControllers { get; } = [];
 }

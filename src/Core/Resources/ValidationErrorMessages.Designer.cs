@@ -70,6 +70,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {0} start and end with /.
+        /// </summary>
+        public static string PathPattern {
+            get {
+                return ResourceManager.GetString("PathPattern", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The {0} is required!.
         /// </summary>
         public static string Required {

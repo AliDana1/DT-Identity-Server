@@ -123,4 +123,7 @@
   <data name="Required" xml:space="preserve">
     <value>The {0} is required!</value>
   </data>
+  <data name="PathPattern" xml:space="preserve">
+    <value>The {0} start and end with /</value>
+  </data>
 </root>
